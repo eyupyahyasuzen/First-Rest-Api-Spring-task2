@@ -30,7 +30,8 @@ Below is the step-by-step verification of all functionalities using Swagger UI.
 
 ### 0️⃣ API Overview
 The main dashboard showing all available endpoints in the `product-controller`.
-![Ekran Resmi 2026-01-13 13.28.49.png](screenshots/Ekran%20Resmi%202026-01-13%2013.28.49.png)
+<img width="1552" height="917" alt="Ekran Resmi 2026-01-13 13 28 49" src="https://github.com/user-attachments/assets/3b202b8e-a3e1-44b0-891c-d50953f7a481" />
+
 
 ### 1️⃣ Create Product (POST)
 **Action:** Adding a new product named "Test Product".
