@@ -7,6 +7,8 @@ import pl.edu.vistula.First_Rest_Api_Spring.product.domain.Product;
 import pl.edu.vistula.First_Rest_Api_Spring.product.repository.ProductRepository;
 import pl.edu.vistula.First_Rest_Api_Spring.product.support.ProductMapper;
 import pl.edu.vistula.First_Rest_Api_Spring.product.support.Exception.ProductExceptionSupplier;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class ProductService {
@@ -44,5 +46,11 @@ public class ProductService {
         productRepository.findById(id)
                 .orElseThrow(ProductExceptionSupplier.productNotFound(id));
         productRepository.deleteById(id);
+    }
+    public List<ProductResponse> findAll() {
+        return productRepository.findAll()
+                .stream()
+                .map(productMapper::toProductResponse)
+                .collect(Collectors.toList());
     }
 }
