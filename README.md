@@ -48,6 +48,8 @@ The main dashboard showing all available endpoints in the `product-controller`.
   ![get2.png](screenshots/get2.png)
 * **Response (Output - Headers):**
   ![img_5.png](img_5.png)
+* ** Retrieving all products.
+*  <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/223ae061-f5e2-4019-b7fc-ec13e87f7d2f" />
 
 ### 3️⃣ Delete Product (DELETE)
 **Action:** Removing the product with ID `1`.
@@ -55,8 +57,6 @@ The main dashboard showing all available endpoints in the `product-controller`.
   ![delete1.png](screenshots/delete1.png)
 * **Response (Output - 204 No Content):**
   ![delete2.png](screenshots/delete2.png)
-* ** Retrieving all products.
-*  <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/223ae061-f5e2-4019-b7fc-ec13e87f7d2f" />
 
 
 ### 4️⃣ Exception Handling (404 Not Found)
