@@ -56,7 +56,8 @@ The main dashboard showing all available endpoints in the `product-controller`.
 * **Response (Output - 204 No Content):**
   ![delete2.png](screenshots/delete2.png)
 * ** Retrieving all products.
-*  <img width="1440" height="900" alt="Ekran Resmi 2026-01-13 17 41 55" src="https://github.com/user-attachments/assets/5478c016-30a1-41b1-8f5a-07c3b73fb403" />
+*  <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/223ae061-f5e2-4019-b7fc-ec13e87f7d2f" />
+
 
 ### 4️⃣ Exception Handling (404 Not Found)
 **Action:** Trying to access the deleted product (ID `1`).
